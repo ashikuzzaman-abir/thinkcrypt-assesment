@@ -8,7 +8,7 @@ import Mail from "@assets/Mail.svg";
 function Footer() {
 	return (
 		<div className='mt-1 bg-shalowGray'>
-			<div className='pt-[280px]  max-w-[1100px] mx-auto flex justify-between items-start'>
+			<div className='pt-[102px]  max-w-[1100px] mx-auto flex justify-between items-start'>
 				<div className=' w-[216px]'>
 					<h1 className=' text-[18px] font-[700] tracking-[3px]'>
 						VINCENT’S SPHERE

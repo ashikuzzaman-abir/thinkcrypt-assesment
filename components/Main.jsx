@@ -17,7 +17,9 @@ function Main() {
 				</div>
 			</div>
 			<Image src={Hero} fill alt='Hero Image'></Image>
+      
 		</div>
+    
 	);
 }
 
