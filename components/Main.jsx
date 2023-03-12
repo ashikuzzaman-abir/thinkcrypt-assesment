@@ -4,7 +4,7 @@ import Hero from "@assets/Hero.svg";
 
 function Main() {
 	return (
-		<div className='relative w-full h-[531px] border-b-black border-b-4'>
+		<div className='relative w-full h-[524px] border-b-black border-b-4'>
 			<div className='relative z-10 max-w-[1100px] mx-auto h-full flex items-center'>
 				<div>
 					<h1 className=' text-[68px] font-[700] w-[634px] bg-hotpink text-center tracking-[4px] border-black border-t-8 border-b-8'>

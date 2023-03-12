@@ -1,4 +1,5 @@
 import Nav from "@components/Nav";
+import Footer from "@/components/Footer";
 import "./global.css";
 export default function RootLayout({
 	// Layouts must accept a children prop.
@@ -10,6 +11,7 @@ export default function RootLayout({
 			<body>
         <Nav></Nav>
         {children}
+				<Footer/>
         </body>
 		</html>
 	);
