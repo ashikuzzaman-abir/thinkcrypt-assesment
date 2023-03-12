@@ -11,7 +11,7 @@ function StorySection() {
 			<div className=' w-[616px]'>
 				<div className=' bg-hotpink w-32 h-2 rounded-[50px]'></div>
 				<h1 className='mt-[22px] text-[38px] font-[700] tracking-[4px] w-[428px] leading-[128%]'>
-					The Story of Vincent's Sphere
+					The Story of Vincent&apos;s Sphere
 				</h1>
 				<h2 className=' mt-[22px] text-[14px] font-[400] tracking-[1px]'>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
