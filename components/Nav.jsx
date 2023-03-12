@@ -5,20 +5,20 @@ import { HiOutlineSearch } from "react-icons/hi";
 function Nav() {
 	return (
 		<div className=' h-[64px] bg-black flex items-center'>
-			<div className='max-w-[1300px] mx-auto flex justify-between  items-center w-full'>
-				<div className='flex justify-between items-center gap-4'>
+			<div className='max-w-[1100px] mx-auto flex justify-between  items-center w-full'>
+				<div className='flex justify-between items-center gap-8'>
 					<div className='relative w-[48px] h-[48px]'>
 						<Image src={mainLogo} fill alt='main logo'></Image>
 					</div>
-					<div className='flex items-center bg-lightGray px-3 py-1 justify-between'>
+					<div className='flex items-center bg-lightGray px-3 py-1 justify-between gap-4'>
 						<input
 							type='text'
 							name=''
 							id=''
-							className=' bg-transparent font-[500] text-white text-[16px] placeholder:text-midGray placeholder:font-[500] px-1'
+							className=' bg-transparent font-[500] text-white text-[16px] placeholder:text-midGray placeholder:font-[500] px-1 focus:outline-none'
 							placeholder='Search'
 						/>
-						<HiOutlineSearch className=' text-midGray text-[16px]' />
+						<HiOutlineSearch className=' text-midGray text-[16px] cursor-pointer' />
 					</div>
 				</div>
 				<div className=' text-white'>

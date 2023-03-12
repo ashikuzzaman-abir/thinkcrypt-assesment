@@ -10,6 +10,7 @@ module.exports = {
 			colors: {
 				midGray: "#6D6D6D",
 				lightGray: "#131313",
+				hotpink: "#EF419B",
 			},
 		},
 	},
