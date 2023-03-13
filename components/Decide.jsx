@@ -10,7 +10,7 @@ function Decide() {
 				<h1 className=' text-[36px] font-[700] tracking-[3px] w-fit mx-auto'>
 					Handicrafted Scented Candles
 				</h1>
-				<p className=' w-fit mx-auto text-[20px] font-[400] tracking-[3px] '>
+				<p className=' w-fit mx-auto text-[20px] font-[400] tracking-[3px] text-[#888888]'>
 					With over hundreds of fragrances to choose from
 				</p>
 			</div>

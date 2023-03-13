@@ -15,3 +15,9 @@
   -webkit-text-stroke: 1px black;
   text-shadow: 4px 4px 0px #000000;
 }
+.sp-shadow{
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.04);
+}
+.item-p-4{
+  padding-right: 40px;
+}

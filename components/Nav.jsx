@@ -24,7 +24,7 @@ function Nav() {
 				<div className=' text-white'>
 					<ul className=' list-none flex justify-between items-center w-full gap-8 text-[14px] font-[500] tracking-[2px] cursor-pointer'>
 						<li>
-							<a>Home</a>
+							<a href="/">Home</a>
 						</li>
 						<li>
 							<a>Catagories</a>

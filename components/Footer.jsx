@@ -4,6 +4,7 @@ import Facebook from "@assets/Facebook.svg";
 import Instagram from "@assets/Instagram.svg";
 import Call from "@assets/call.svg";
 import Mail from "@assets/Mail.svg";
+import Link from "next/link";
 
 function Footer() {
 	return (
@@ -38,12 +39,16 @@ function Footer() {
 						<h1 className=' text-[18px] font-[700] tracking-[3px]'>
 							Navigation
 						</h1>
+						<Link href="/">
 						<p className='mt-3 text-[14px] font-[400] tracking-[2px] cursor-pointer'>
 							Home
 						</p>
-						<p className='mt-3 text-[14px] font-[400] tracking-[2px] cursor-pointer'>
-							About
-						</p>
+						</Link>
+						<Link href="/product">
+							<p className='mt-3 text-[14px] font-[400] tracking-[2px] cursor-pointer'>
+								Product
+							</p>
+						</Link>
 						<p className='mt-3 text-[14px] font-[400] tracking-[2px] cursor-pointer'>
 							About
 						</p>
