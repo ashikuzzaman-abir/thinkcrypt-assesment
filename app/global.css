@@ -10,3 +10,8 @@
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+.sp-txt{
+  -webkit-text-stroke: 1px black;
+  text-shadow: 4px 4px 0px #000000;
+}
