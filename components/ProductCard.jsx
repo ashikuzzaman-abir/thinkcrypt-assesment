@@ -28,16 +28,16 @@ function ProductCard({ data }) {
 				</div>
 				<div className='mt-5 w-full flex justify-between items-center'>
 					<div className='flex gap-3'>
-						<div className='relative w-[24px] h-[24px]'>
+						<div className='relative w-[24px] h-[24px] cursor-pointer'>
 							<Image src={Love} fill alt='love icon' />
 						</div>
-						<div className='relative w-[24px] h-[24px]'>
+						<div className='relative w-[24px] h-[24px] cursor-pointer'>
 							<Image src={Share} fill alt='Share icon' />
 						</div>
 					</div>
 					<div>
 						<Link href='/product'>
-							<div className='relative w-[24px] h-[24px]'>
+							<div className='relative w-[24px] h-[24px] bg-white rounded-full transition-all hover:bg-[rgba(0,0,0,0.1)] hover:scale-150'>
 								<Image src={Right} fill alt='Right icon' />
 							</div>
 						</Link>
