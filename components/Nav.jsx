@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import mainLogo from "@assets/main-logo.svg";
 import { HiOutlineSearch } from "react-icons/hi";
+import Link from "next/link";
 function Nav() {
 	return (
 		<div className=' h-[64px] bg-black flex items-center'>
@@ -24,7 +25,9 @@ function Nav() {
 				<div className=' text-white'>
 					<ul className=' list-none flex justify-between items-center w-full gap-8 text-[14px] font-[500] tracking-[2px] cursor-pointer'>
 						<li>
-							<a href="/">Home</a>
+							<Link href="/">
+								<>Home</>
+							</Link>
 						</li>
 						<li>
 							<a>Catagories</a>
