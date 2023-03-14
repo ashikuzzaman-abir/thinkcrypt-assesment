@@ -16,7 +16,7 @@ function Main() {
           <div className=" mt-4 bg-black px-12 py-3 text-white w-fit text-[16px] font-[700] tracking-[2px] cursor-pointer">EXPLORE</div>
 				</div>
 			</div>
-			<Image src={Hero} fill alt='Hero Image'></Image>
+			<Image src={Hero} fill className=" object-cover object-center" alt='Hero Image'></Image>
       
 		</div>
     
