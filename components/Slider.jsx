@@ -61,6 +61,7 @@ function Slider({ children }) {
 						arrows={false}
 						partialVisbile={false}
 						containerClass=" p-2"
+						// swipeable={false}
 					>
 						
 							{items.map((item, ind) => {

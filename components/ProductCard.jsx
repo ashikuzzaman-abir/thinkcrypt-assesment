@@ -13,7 +13,7 @@ function ProductCard({ data }) {
 					src={data.img}
 					fill
 					alt={data.name}
-					className='rounded-t-[25px]'
+					className='rounded-t-[25px] pointer-events-none'
 				></Image>
 			</div>
 			<div className=' px-4 py-3 bg-white rounded-b-[25px] '>
