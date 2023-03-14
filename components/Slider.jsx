@@ -55,15 +55,18 @@ function Slider({ children }) {
 			<div className='max-w-[1100px] mx-auto'>{children}</div>
 			<div className=' h-[28px]'></div>
 			<div className=' max-w-[1280px] mx-auto'>
-				<div className=" max-w-[1200px] ml-auto">
+				<div className=' max-w-[1200px] ml-auto'>
 					<Carousel
 						responsive={responsive}
 						arrows={false}
 						partialVisbile={false}
+						containerClass=" p-2"
 					>
-						{items.map((item, ind) => {
-							return <ProductCard key={ind} data={item} />;
-						})}
+						
+							{items.map((item, ind) => {
+								return <ProductCard key={ind} data={item} />;
+							})}
+						
 					</Carousel>
 				</div>
 			</div>
