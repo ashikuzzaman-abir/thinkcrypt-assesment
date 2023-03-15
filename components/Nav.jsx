@@ -8,10 +8,12 @@ function Nav() {
 		<div className=' h-[64px] bg-black flex items-center'>
 			<div className='max-w-[1100px] mx-auto flex justify-between  items-center w-full'>
 				<div className='flex justify-between items-center gap-8'>
-					<div className='relative w-[48px] h-[48px]'>
-						<Image src={mainLogo} fill alt='main logo'></Image>
-					</div>
-					<div className='flex items-center bg-lightGray px-3 py-1 justify-between gap-4'>
+					<Link href="/">
+						<div className='relative w-[48px] h-[48px]'>
+							<Image src={mainLogo} fill alt='main logo'></Image>
+						</div>
+					</Link>
+					<div className='flex items-center bg-lightGray px-3 py-2 justify-between gap-4'>
 						<input
 							type='text'
 							name=''
@@ -25,7 +27,7 @@ function Nav() {
 				<div className=' text-white'>
 					<ul className=' list-none flex justify-between items-center w-full gap-8 text-[14px] font-[500] tracking-[2px] cursor-pointer'>
 						<li>
-							<Link href="/">
+							<Link href='/'>
 								<>Home</>
 							</Link>
 						</li>
